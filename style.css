@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+} 
+
+.container{
+    background-color: rgb(240, 216, 143);
+    height: 98vh;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+.caculator{
+    background-color: #3e4452;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.caculator form input{
+    border: 0px;
+    outline: 0px;
+    width: 65px;
+    height: 65px;
+    border-radius: 10px;
+    background-color: transparent;
+    font-size: 15px;
+    color: #fff;
+    cursor: pointer;
+    margin: 5px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+    background-color: #606060;
+}
+
+form .display input{
+    text-align: right;
+    flex: 1;
+    font-size: 24px;
+    box-shadow: none;
+}
+
+form input.plusminus{
+    width: 145px;
+}
+
+form input.equals{
+    width: 145px;
+    font-size: 30px;
+}
+
+form input.plus{
+    height: 100px;
+}
